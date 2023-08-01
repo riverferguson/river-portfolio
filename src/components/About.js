@@ -7,7 +7,7 @@ const About = () => {
         <Bio />
         <div className='about-div'>
             <h2 id='about'> About Me </h2>
-            <h3 className='about-me-bio'></h3>
+            <h3 className='about-me-bio'>fill out bio here</h3>
         </div>
     </div>
   )

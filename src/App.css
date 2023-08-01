@@ -13,7 +13,7 @@ body {
 .App {
   height: 100%;
   text-align: center;
-  background: radial-gradient(ellipse at bottom, #658fc0 0%, #050712 100%);
+  background: radial-gradient(ellipse at bottom, #6a727b 0%, #050712 100%);
   -webkit-scroll-behavior: smooth;
   
 }

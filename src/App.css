@@ -145,3 +145,29 @@ a:active { text-decoration: none; }
   color: rgb(204, 201, 201);
   line-height: 40px;
 }
+
+.interest-header{
+  background: -webkit-linear-gradient(#eee,  rgb(245, 185, 197));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.interests{
+  text-align: center;
+  margin-left: 0px;
+}
+
+.bio-image img{
+  margin-top: 10px;
+  max-height: 400px;
+  border-radius: 20%;
+  margin-bottom: 15px;
+  box-shadow: 3px 3px 10px 0px #3a4bca, 0 3px 10px 0 #473e3e;
+  }
+
+  .interest-tags{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1px;
+    color: rgb(204, 201, 201);
+  }

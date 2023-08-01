@@ -2,7 +2,7 @@ import React from 'react'
 
 const Bio = () => {
   return (
-    <div>Bio</div>
+    <div></div>
   )
 }
 

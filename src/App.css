@@ -11,24 +11,22 @@ body {
 
 
 .App {
+  height: 100%;
   text-align: center;
+  background: radial-gradient(ellipse at bottom, #658fc0 0%, #050712 100%);
+  -webkit-scroll-behavior: smooth;
+  
 }
 
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.app-body{
+  background: radial-gradient(ellipse at bottom, #2c4057 0%, #1c1f2f 100%);
   color: white;
+  padding-top: 50px;
+
 }
 
-.App-link {
-  color: #61dafb;
-}
+
+
 
 
 .App-header {
@@ -48,7 +46,7 @@ body {
 
 .header-name{
   font-weight: 600;
-  margin-left: 50px;
+  margin-right: auto;
   font-size: 30px;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   border:5px solid black;
@@ -57,6 +55,26 @@ body {
   padding: .5rem .5rem;
   /* min-height: 3em; */
   resize: both;
+}
+
+a:link { text-decoration: none; }
+
+
+a:visited { text-decoration: none; }
+
+
+a:hover { text-decoration: none; }
+
+
+a:active { text-decoration: none; }
+
+
+
+
+.header-list{
+  display: flex;
+  color: white;
+  margin-left: 50px;
 }
 
 .list-link{
@@ -68,7 +86,7 @@ body {
 }
 
 .list-link {
-  top: -250px;
+  top: 250px;
   padding: 10px;
 }
 
@@ -111,4 +129,19 @@ body {
   display: flex;
   justify-content: space-evenly;
   margin-top: 100px;
+}
+
+.about-div{
+  color: rgb(194, 189, 189);
+  text-align:left;
+  word-spacing: 3px;
+  inline-size: 500px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin-left: 100px;
+}
+
+.about-me-bio{
+  margin-top: 0px;
+  color: rgb(204, 201, 201);
+  line-height: 40px;
 }

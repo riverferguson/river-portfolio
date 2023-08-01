@@ -1,3 +1,15 @@
+
+body {
+  /* background: radial-gradient(ellipse at bottom, #2c4057 0%, #1c1f2f 100%); */
+  max-height: 100%;
+  max-width: 100%;
+  font-family: 'Anton', sans-serif;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+
 .App {
   text-align: center;
 }

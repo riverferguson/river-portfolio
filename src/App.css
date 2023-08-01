@@ -36,3 +36,52 @@
     transform: rotate(360deg);
   }
 }
+
+.App-header {
+  /* background: radial-gradient(ellipse at bottom, #2c4057 0%, #1c1f2f 100%); */
+  min-height: 10vh;
+  display: flex;
+  /* flex-direction: row; */
+  align-items: center;
+  /* justify-content: center; */
+  font-size: calc(10px + 2vmin);
+  color: white;
+  position: fixed;
+  z-index: 2;
+  background-color: rgba(16, 14, 29, 0.343);
+  width: 100%;
+}
+
+.header-name{
+  font-weight: 600;
+  margin-left: 50px;
+  font-size: 30px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  border:5px solid black;
+  border-image: url("data:image/svg+xml;charset=utf-8,%3Csvg width='100' height='100' viewBox='0 0 100 100' fill='none' xmlns='http://www.w3.org/2000/svg'%3E %3Cstyle%3Epath%7Banimation:stroke 5s infinite linear%3B%7D%40keyframes stroke%7Bto%7Bstroke-dashoffset:776%3B%7D%7D%3C/style%3E%3ClinearGradient id='g' x1='0%25' y1='0%25' x2='0%25' y2='100%25'%3E%3Cstop offset='0%25' stop-color='%232d3561' /%3E%3Cstop offset='25%25' stop-color='%23c05c7e' /%3E%3Cstop offset='50%25' stop-color='%23f3826f' /%3E%3Cstop offset='100%25' stop-color='%23ffb961' /%3E%3C/linearGradient%3E %3Cpath d='M1.5 1.5 l97 0l0 97l-97 0 l0 -97' stroke-linecap='square' stroke='url(%23g)' stroke-width='3' stroke-dasharray='388'/%3E %3C/svg%3E") 1;
+  /* background: transparent; */
+  padding: .5rem .5rem;
+  /* min-height: 3em; */
+  resize: both;
+}
+
+.list-link{
+  
+  font-size: smaller;
+  background: -webkit-linear-gradient(#eee,  rgb(245, 185, 197));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.list-link {
+  /* display: block; */
+  /* position: relative; */
+  top: -250px;
+  /* visibility: hidden; */
+  padding: 10px;
+}
+
+.header-link{
+  color: white;
+  font-size: smaller;
+}

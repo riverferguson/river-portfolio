@@ -8,6 +8,13 @@ const Bio = () => {
       </div>
       <div className='interests'>
         <h4 className='interest-header'>My Interests</h4>
+        <div>
+          <p>Coding</p>
+          <p>Diving</p>
+          <p>Music</p>
+          <p>Outdoors</p>
+          <p>Surfing</p>
+        </div>
       </div>
     </div>
   )

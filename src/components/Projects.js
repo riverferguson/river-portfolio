@@ -1,8 +1,14 @@
 import React from 'react'
+import Saltys from './Saltys'
 
 const Projects = () => {
   return (
-    <div></div>
+    <div className='projects'>
+      <h2 id='projects' className='skills'>Projects</h2>
+      <div className='project-showcase'>
+
+      </div>
+    </div>
   )
 }
 

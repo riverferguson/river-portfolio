@@ -1,5 +1,6 @@
 import React from 'react'
 import Saltys from './Saltys'
+import Boat from './Boat'
 
 const Projects = () => {
   return (
@@ -7,6 +8,7 @@ const Projects = () => {
       <h2 id='projects' className='skills'>Projects</h2>
       <div className='project-showcase'>
         <Saltys />
+        <Boat />
       </div>
     </div>
   )

@@ -1,6 +1,7 @@
 import React from 'react'
 import saltys from '../project-images/saltys.png'
 
+
 const Saltys = () => {
   return (
     <div className='project-card'>

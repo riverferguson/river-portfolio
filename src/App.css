@@ -206,3 +206,51 @@ a:active { text-decoration: none; }
 .project-showcase img:hover{
   opacity: 1;
 }
+
+.project-name{
+  background: -webkit-linear-gradient(#eee,  rgb(245, 185, 197));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.project-description{
+  color: rgb(204, 201, 201);
+}
+
+.project-card a {
+  color: white;
+  text-decoration: none;
+  border: 1px solid white;
+  border-radius: 10%;
+  background-color:darkslategrey;
+  
+}
+
+.project-card a:hover{
+  background-color: rgb(251, 222, 185);
+  color: #050712;
+}
+
+.reference-link1{
+  margin-right: 50px;
+  padding: 5px;
+}
+
+.reference-link2{
+  margin-left: 50px;
+  padding: 5px;
+}
+
+.links{
+  padding-bottom: 20px;
+}
+
+.software{
+  margin-top: 20px;
+  color: rgb(251, 222, 185);
+}
+
+.software-used{
+  word-spacing: 12px;
+  color: rgb(251, 222, 185);
+}

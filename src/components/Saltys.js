@@ -11,7 +11,7 @@ const Saltys = () => {
         <h6 className='software-used'>Flask Python React</h6>
         <br></br>
         <div className='links'>
-            <a className='reference-link1' href=''>Code</a>
+            <a className='reference-link1' href='https://github.com/riverferguson/saltys-surf' target='_blank'>Code</a>
             <a className='reference-link2' href=''>Demo</a>
         </div>
     </div>

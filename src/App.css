@@ -103,3 +103,12 @@ body {
   -webkit-text-fill-color: transparent;
 
 }
+
+.about{
+  scroll-padding-top: 20px; 
+  min-height: 60vh;
+  padding-top: 20px;
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 100px;
+}

@@ -254,3 +254,37 @@ a:active { text-decoration: none; }
   word-spacing: 12px;
   color: rgb(251, 222, 185);
 }
+
+.skills-div{
+  text-align: center;
+}
+
+.skills-h4{
+  background: -webkit-linear-gradient(#eee,  rgb(245, 185, 197));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-top: 0px;
+}
+
+.about .skills{
+  border-bottom: 5px solid rgb(232, 176, 85);;
+}
+
+.about-technologies{
+  display: grid;
+  gap: 50px;
+  grid-template-columns: repeat(3, 1fr);
+  /* grid-row-gap: 50px;
+  grid-column-gap: 50px; */
+}
+
+.about-technologies img{
+  height: 100px;
+  width: 80px;
+  display: flex;
+  justify-content: center;
+}
+
+@media (max-width:500px){
+
+}

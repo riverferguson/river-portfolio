@@ -2,7 +2,7 @@ import './App.css';
 import Header from './components/Header';
 import About from './components/About';
 import Projects from './components/Projects';
-import Experience from './components/Experience';
+import Technologies from './components/Technologies';
 import Contact from './components/Contact';
 
 function App() {
@@ -12,7 +12,7 @@ function App() {
       <body className='body'>
         <About />
         <Projects />
-        <Experience />
+        <Technologies />
         <Contact />
       </body>
     </div>

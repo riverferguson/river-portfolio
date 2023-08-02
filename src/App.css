@@ -26,9 +26,6 @@ body {
 }
 
 
-
-
-
 .App-header {
   /* background: radial-gradient(ellipse at bottom, #2c4057 0%, #1c1f2f 100%); */
   min-height: 10vh;
@@ -39,7 +36,7 @@ body {
   font-size: calc(10px + 2vmin);
   color: white;
   position: fixed;
-  z-index: 2;
+  z-index: 99;
   background-color: rgba(16, 14, 29, 0.343);
   width: 100%;
 }
@@ -108,8 +105,6 @@ a:active { text-decoration: none; }
  }
 
  #about{
-  /* position:relative; 
-  position:absolute; top:-200px; */
   scroll-padding-top: 20px; 
   text-align: left;
   font-family: Arial, Helvetica, sans-serif;
@@ -172,64 +167,73 @@ a:active { text-decoration: none; }
     color: rgb(204, 201, 201);
   }
 
-  .projects{
-  min-height: 60vh;
-  padding-top: 100px;
-}
-
-#projects{
-  text-align: left;
-  font-family: Arial, Helvetica, sans-serif;
-  margin-left: 15px;
-  margin-right: 800px;
-  font-size: 50px;
-  background: -webkit-linear-gradient(#eee,  rgb(245, 185, 197));
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-
-.projects .skills{
-  border-bottom: 5px solid rgb(40, 40, 128);;
-}
-
-.project-card{
-  width: 400px;
-  box-shadow: 3px 3px 10px 0px #c5c4c4, 0 3px 10px 0 #c5c4c4;
-}
-
-.project-showcase img{
-  height: 200px;
-  width: 400px;
-  opacity: .5;
-}
-
-.project-showcase img:hover{
-  opacity: 1;
-}
-
-.project-name{
-  background: -webkit-linear-gradient(#eee,  rgb(245, 185, 197));
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-
-.project-description{
-  color: rgb(204, 201, 201);
-}
-
-.project-card a {
-  color: white;
-  text-decoration: none;
-  border: 1px solid white;
-  border-radius: 10%;
-  background-color:darkslategrey;
+  .projects {
+    min-height: 60vh;
+    padding-top: 100px;
+  }
   
-}
-
-.project-card a:hover{
-  background-color: rgb(251, 222, 185);
-  color: #050712;
-}
+  #projects {
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 15px;
+    font-size: 50px;
+    background: -webkit-linear-gradient(#eee, rgb(245, 185, 197));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  
+  .projects .skills {
+    border-bottom: 5px solid rgb(40, 40, 128);
+  }
+  
+  .project-showcase {
+    display: flex; /* Use flexbox to create a horizontal layout */
+    justify-content: space-evenly; /* Adjust the spacing between project cards */
+  }
+  
+  .project-card {
+    text-align: center;
+    width: 400px;
+    box-shadow: 3px 3px 10px 0px #c5c4c4, 0 3px 10px 0 #c5c4c4;
+  }
+  
+  .project-showcase img {
+    height: 200px;
+    width: 100%; /* Make the image take the full width of the project card */
+    opacity: 0.5;
+  }
+  
+  .project-showcase img:hover {
+    opacity: 1;
+  }
+  
+  .project-name {
+    background: -webkit-linear-gradient(#eee, rgb(245, 185, 197));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  
+  .project-description {
+    color: rgb(204, 201, 201);
+  }
+  
+  .project-card a {
+    display: inline-block; /* Display the buttons inline */
+    width: 100px; /* Adjust the width as needed */
+    margin: 5px; /* Add some spacing between the buttons */
+    color: white;
+    text-decoration: none;
+    border: 1px solid white;
+    border-radius: 10%;
+    background-color: darkslategrey;
+    padding: 8px 12px; /* Adjust the padding as needed */
+    font-size: 14px; /* Adjust the font size as needed */
+  }
+  
+  .project-card a:hover {
+    background-color: rgb(251, 222, 185);
+    color: #050712;
+  }
 
 .reference-link1{
   margin-right: 50px;
@@ -259,23 +263,30 @@ a:active { text-decoration: none; }
   text-align: center;
 }
 
-.skills-h4{
+.skills-h3{
   background: -webkit-linear-gradient(#eee,  rgb(245, 185, 197));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   margin-top: 0px;
 }
 
-.about .skills{
-  border-bottom: 5px solid rgb(232, 176, 85);;
+#tech {
+  text-align: left;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: 15px;
+  font-size: 50px;
+  background: -webkit-linear-gradient(#eee, rgb(245, 185, 197));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  border-bottom: 5px solid rgb(40, 40, 128); /* Add the underline effect */
 }
+
 
 .about-technologies{
   display: grid;
-  gap: 50px;
+  gap: 10px;
   grid-template-columns: repeat(3, 1fr);
-  /* grid-row-gap: 50px;
-  grid-column-gap: 50px; */
+  justify-content: center;
 }
 
 .about-technologies img{
@@ -283,6 +294,7 @@ a:active { text-decoration: none; }
   width: 80px;
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 
 @media (max-width:500px){

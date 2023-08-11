@@ -5,7 +5,7 @@ const Header = () => {
   const handleSmoothScroll = (event, target) => {
     event.preventDefault();
     const element = document.querySelector(target);
-    const offset = 80; // Adjust the offset according to your layout
+    const offset = 80; 
     const bodyRect = document.body.getBoundingClientRect().top;
     const elementRect = element.getBoundingClientRect().top;
     const elementPosition = elementRect - bodyRect;

@@ -1,5 +1,5 @@
 import React from 'react'
-import profile from '../project-images/profile-pic.png'
+import profile from '../project-images/profile-pic.jpg'
 
 const Bio = () => {
   return (

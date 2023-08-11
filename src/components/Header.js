@@ -18,7 +18,7 @@ const Header = () => {
   };
 
   return (
-    <div className="fixedHeader">
+    <div className="nav">
       <header className="App-header">
         <div className="header-name">
           <a className='header-link' href="/">River Ferguson</a>

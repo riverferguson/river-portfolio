@@ -13,7 +13,7 @@ const Saltys = () => {
         <br></br>
         <div className='links'>
             <a className='reference-link1' href='https://github.com/riverferguson/saltys-surf' target='_blank'>Code</a>
-            <a className='reference-link2' href=''>Demo</a>
+            <a className='reference-link2' href='https://www.loom.com/share/5f1a9dfe0a4244f3ab1eeeb35ad96366' target= '_blank'>Demo</a>
         </div>
     </div>
   )
